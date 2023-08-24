@@ -1,0 +1,22 @@
+<div>
+  <h3>Task Details</h3>
+  <button mat-button routerLink="/">Countries</button>
+  <button mat-button routerLink="/api">Django</button>
+</div>
+<kendo-grid [data]="tasks" [pageSize]="10" [pageable]="true">
+  <kendo-grid-column field="title" title="Title"></kendo-grid-column>
+  <kendo-grid-column
+    field="task_description"
+    title="Description"
+  ></kendo-grid-column>
+  <kendo-grid-column
+    field="created_date"
+    title="Created Date"
+  ></kendo-grid-column>
+  <kendo-grid-column
+    field="updated_date"
+    title="Updated Date"
+  ></kendo-grid-column>
+  <kendo-grid-column field="completed" title="Completed"></kendo-grid-column>
+</kendo-grid>
+<router-outlet></router-outlet>

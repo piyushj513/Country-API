@@ -3,23 +3,15 @@ h3 {
   background-size: contain;
   background-repeat: repeat;
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-color: black;
   font-size: xx-large;
   text-align: center;
+  font-weight: bold;
   text-transform: uppercase;
   font-family: "Steelfish Rg", "helvetica neue", helvetica, arial, sans-serif;
-  font-weight: 900;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-}
-img {
-  border: 1pt solid black;
-  transition: 0.3s ease-in-out;
-}
-img:hover {
-  transform: scale(1.1);
-}
-.dark-mode {
-  background: #222;
 }

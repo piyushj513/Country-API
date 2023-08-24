@@ -12,10 +12,11 @@ import {
 } from '@progress/kendo-angular-grid';
 import { CountryListComponent } from './country-list/country-list.component';
 import { PagerModule } from '@progress/kendo-angular-pager';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
-  declarations: [AppComponent, CountryListComponent],
+  declarations: [AppComponent, CountryListComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
